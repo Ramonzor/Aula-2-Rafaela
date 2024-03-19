@@ -1,0 +1,22 @@
+import java.util.Scanner;
+import java.io.*;
+
+class TeoremaPitagoras {
+  public static void main(String[] args) {
+     double VA, VB, total ;
+     
+		Scanner ler = new 
+    Scanner(System.in);
+    
+		System.out.println("Insira a primeira variavel:");
+		VA = ler.nextDouble();
+		
+	    System.out.println("Insira a segunda variavel:");
+		VB = ler.nextDouble();
+		
+		total = Math.sqrt( VA * VA + VB * VB);
+		
+		System.out.println(" O resultado será:" + total);
+		
+}
+}

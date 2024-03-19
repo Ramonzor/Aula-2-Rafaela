@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.io.*;
+
+class IMCPeso {
+  public static void main(String[] args) {
+     double peso, altura, altura2, IMC;    
+		Scanner ler = new 
+    Scanner(System.in);
+
+		System.out.println("Digite seu peso:");
+		
+		peso = ler.nextDouble();
+
+		System.out.println("Digite sua altura(em cm):");
+		
+		altura = ler.nextDouble();
+
+        altura2 =  altura/100;
+        
+        IMC = peso/(altura2 * altura2);
+        
+        System.out.println("Seu peso ideal seria:" + IMC);
+        
+  }
+}

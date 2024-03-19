@@ -1,0 +1,26 @@
+import java.util.Scanner;
+import java.io.*;
+
+class AreaPerimetroDiagonalRetangulo {
+  public static void main(String[] args) {
+     double lado1,lado2,area,perimetro, diagonal;    
+		Scanner ler = new 
+    Scanner(System.in);
+
+		System.out.println("Digite o 1º lado do retângulo:");
+		lado1 = ler.nextDouble();
+
+		System.out.println("Digite o 2º lado do retângulo:");
+		lado2 = ler.nextDouble();
+
+		area = lado1*lado2;
+		System.out.print("o total da area é:" + area);
+
+		perimetro = lado1+lado1+lado2+lado2;
+		System.out.print("o total do seu perimetro é:" + perimetro);
+		
+		diagonal = Math.sqrt( lado1 * lado1 + lado2 * lado2);
+		System.out.print("o total da sua diagonal é:" + diagonal);
+
+  }
+}

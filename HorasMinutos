@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.io.*;
+
+class HorasMinutos {
+  public static void main(String[] args) {
+     double hora, minutos, total ;
+     
+		Scanner ler = new 
+    Scanner(System.in);
+    
+		System.out.println("Digite a hora atual:");
+		hora = ler.nextDouble();
+		
+		System.out.println("Digite os minutos atuais:");
+		minutos = ler.nextDouble();
+		
+	    total = hora * 60 + minutos ;	
+		System.out.print("Desde 00:00 já se passaram" + total);
+}
+}

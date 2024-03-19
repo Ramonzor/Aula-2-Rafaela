@@ -1,0 +1,18 @@
+import java.util.Scanner;
+import java.io.*;
+
+class PesoAgua {
+  public static void main(String[] args) {
+     double peso, total;    
+		Scanner ler = new 
+    Scanner(System.in);
+
+		System.out.println("Digite seu peso:");
+		
+		peso = ler.nextDouble();
+        
+        total = 0.035 * peso;
+		System.out.println("Você deverá ingerir um total de agua igual diário de:" + total);
+		
+  }
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.io.*;
+
+class GasolinaXEtanol {
+  public static void main(String[] args) {
+     double etanol, gasolina, total ;
+     
+		Scanner ler = new 
+    Scanner(System.in);
+    
+		System.out.println("Insira o preço da gasolina:");
+		gasolina = ler.nextDouble();
+		
+		System.out.println("Insira o preço do etanol:");
+		etanol = ler.nextDouble();
+		
+		gasolina = gasolina*0.7;
+		
+		if (etanol<gasolina){
+		System.out.print("etanol é mais viável");
+		}
+		else {
+		System.out.print("Gasolina é mais viável");    
+  }
+		
+}
+}

@@ -16,7 +16,7 @@ class DownloadTempo {
         Mb = ler.nextDouble();
         Mbps =  ler.nextDouble();
 
-        Total = Mb * Mbps / 60;
+        Total = Mb / Mbps / 60;
         System.out.println("Seu arquivo irá necessitar de:" + Total + "Minutos");
     }
 }
